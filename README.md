@@ -1,9 +1,26 @@
-# Hello Solana - Rust Smart Contract
+## Rust Smart Contract
 
-This is a basic Solana smart contract written in Rust that prints a message to the program logs.
+This is a basic Solana smart contract written in Rust that prints a message to the program logs.  
+A great starting point for learning how to build on the Solana blockchain using Rust
+
+---
+
+## 📦 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)
+- [Rust + Cargo](https://www.rust-lang.org/tools/install)
+- Node.js and Yarn (optional, if integrating with frontend)
 
 ## 📦 Usage
 
 ```bash
-cargo build-sbf -- -Znext-lockfile-bump
+cargo build-sbf
+solana airdrop 2
 solana program deploy target/deploy/hello_solana.so
+cargo build-sbf -- -Znext-lockfile-bump
+
+![Solana](<img width="790" alt="image" src="https://github.com/user-attachments/assets/92533fbf-3967-4897-909b-2d722087f244" />
+)
+
