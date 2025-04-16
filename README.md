@@ -20,7 +20,7 @@ cargo build-sbf
 solana airdrop 2
 solana program deploy target/deploy/hello_solana.so
 cargo build-sbf -- -Znext-lockfile-bump
+```
 
-![Solana](<img width="790" alt="image" src="https://github.com/user-attachments/assets/92533fbf-3967-4897-909b-2d722087f244" />
-)
+![Solana](<img width="790" alt="image" src="https://github.com/user-attachments/assets/92533fbf-3967-4897-909b-2d722087f244" />)
 
